@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "CPT-TO-SOIL-TYPE"
+version = "0.1.0"
+description = ""
+authors = ["Hugo"]
+license = "MIT"
+readme = "README.md"
+packages = [
+    { include = "CPT-TO-SOIL-TYPE", from = "src"}
+]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pandas = "^2.2.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
